@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Calculus 1",
+        "id": "203.0001",
+        "credits": 5,
+        "semester": "Fall", // "Fall", "Spring", "Summer"
+        "professor": "kulodani",
+        "syllabus": "Calculus is the study of functions and their derivatives.",
+        "prerequisites": [],
+        "prerequisite-of": ["203.0002"]
+    },
+    {
+        "name": "Calculus 2",
+        "id": "203.0002",
+        "credits": 5,
+        "semester": "Fall", // "Fall", "Spring", "Summer"
+        "professor": "kulodani",
+        "syllabus": "Calculus is the study of functions and their derivatives.",
+        "prerequisites": ["203.0001"],
+        "prerequisite-of": ["203.0005", "203.0006"]
+    },
+    {
+        "name": "Algebra 1",
+        "id": "203.0003",
+        "credits": 5,
+        "semester": "Fall", // "Fall", "Spring", "Summer"
+        "professor": "kulodani",
+        "syllabus": "Calculus is the study of functions and their derivatives.",
+        "prerequisites": [],
+        "prerequisite-of": ["203.0004"]
+    },
+    {
+        "name": "Algebra 2",
+        "id": "203.0004",
+        "credits": 5,
+        "semester": "Fall", // "Fall", "Spring", "Summer"
+        "professor": "kulodani",
+        "syllabus": "Calculus is the study of functions and their derivatives.",
+        "prerequisites": ["203.0003"],
+        "prerequisite-of": ["203.0006"]
+    },
+    {
+        "name": "Data Structures",
+        "id": "203.0005",
+        "credits": 5,
+        "semester": "Fall", // "Fall", "Spring", "Summer"
+        "professor": "kulodani",
+        "syllabus": "Calculus is the study of functions and their derivatives.",
+        "prerequisites": ["203.0002"],
+        "prerequisite-of": []
+    },
+    {
+        "name": "Machine Learning",
+        "id": "203.0006",
+        "credits": 5,
+        "semester": "Fall", // "Fall", "Spring", "Summer"
+        "professor": "kulodani",
+        "syllabus": "Calculus is the study of functions and their derivatives.",
+        "prerequisites": ["203.0002", "203.0004"],
+        "prerequisite-of": []
+    }
+]
